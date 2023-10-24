@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<form action="register.php">
+
+    <div>
+    <label for="name">Adınız</label>
+    <input type="text" id="name">
+    </div>
+
+    <div>
+    <label for="surname">Soyadınız</label>
+    <input type="text" id="surname">
+    </div>    
+
+    <div>
+        <label for="parola">parola</label>
+        <input type="password" id="parola">
+        </div>    
+
+    <div>
+        <label for="intro">Kendinden Bahset</label>
+        <textarea id="intro" cols="20"></textarea>
+    </div>
+    <div>
+        <p>En sevdiğin programlama dili</p>
+        <input type="radio" id="html" name="programlama">
+        <label for="html">HTML</label>
+
+        <input type="radio" id="Css" name="programlama">
+        <label for="Css">Css</label>
+
+        <input type="radio" id="Javascript" name="programlama">
+        <label for="Javascript">Javascript</label>
+
+        <div>
+            <p>En sevdiğin programlama dili</p>
+            <input type="checkbox" id="html2" name="programlama">
+            <label for="html2">HTML</label>
+    
+            <input type="checkbox" id="css2" name="programlama">
+            <label for="Css2">Css</label>
+    
+            <input type="checkbox" id="Javascript2" name="programlama">
+            <label for="Javascript2">Javascript</label>
+        </div>
+
+    </div>
+
+    <div>
+        <label for="cities">Şehir</label>
+        <select  id="cities">
+            <option value="47">Mardin</option>
+            <option value="16">Bursa</option>
+            <option value="06">Ankara</option>
+            <option value="34">İstanbul</option>
+            <option value="63">Şanlıurfa</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="eposta">Email</label>
+        <input type="email" id="eposta">
+    </div>
+
+    <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="Birthday">
+    </div>
+
+<button type="submit">Kaydet</button>
+<button type="reset">Temizle</button>
+
+</form>
+
+    
+</body>
+</html>
